@@ -1,1 +1,20 @@
+# Spring
+spring:
+  application:
+    name: swagger
 
+#Server
+server:
+  port: 8888
+
+# URI
+uri:
+  gateway: http://localhost:8083
+
+
+# Logging
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
