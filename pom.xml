@@ -18,6 +18,14 @@
 		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 
+	<distributionManagement>
+		<repository>
+			<id>repsy</id>
+			<name>My Private Maven Repository on Repsy</name>
+			<url>https://repo.repsy.io/mvn/jma/libs</url>
+		</repository>
+	</distributionManagement>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
